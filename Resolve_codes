@@ -1,0 +1,17 @@
+import DaVinciResolveScript as Dvr
+resolve = dvr.scriptapp('Resolve')
+prmanager = resolve.GetProjectManager()
+currentpr = prmanager.GetCurrentProject()
+mpool =  currentpr.GetMediaPool()
+cfolder = mpool.GetCurrentFolder()
+clips =  cfolder.GetClips()
+for k,v in clips.items():
+  print v
+
+
+
+
+rootfolder =  mpool.MediaPoolItem()
+print rootfolder
+clipnames = rootfolder.GetMediaId()
+print clipnames
