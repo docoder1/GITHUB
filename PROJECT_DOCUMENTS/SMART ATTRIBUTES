@@ -1,0 +1,25 @@
+ID# ATTRIBUTE_NAME          CUR WST THR TYPE     UPDATED WHEN_FAIL   RAW
+  1 Raw_Read_Error_Rate     100 100 050 Pre-fail Always  -           0
+  2 Throughput_Performance  100 100 050 Pre-fail Offline -           0
+  3 Spin_Up_Time            100 100 001 Pre-fail Always  -           10726
+  4 Start_Stop_Count        100 100 000 Old_age  Always  -           576
+  5 Reallocated_Sector_Ct   100 100 050 Pre-fail Always  -           0
+  7 Seek_Error_Rate         100 100 050 Pre-fail Always  -           0
+  8 Seek_Time_Performance   100 100 050 Pre-fail Offline -           0
+  9 Power_On_Hours          095 095 000 Old_age  Always  -           2091
+ 10 Spin_Retry_Count        111 100 030 Pre-fail Always  -           0
+ 12 Power_Cycle_Count       100 100 000 Old_age  Always  -           382
+191 G-Sense_Error_Rate      100 100 000 Old_age  Always  -           5
+192 Power-Off_Retract_Count 100 100 000 Old_age  Always  -           37
+193 Load_Cycle_Count        100 100 000 Old_age  Always  -           1390
+194 Temperature_Celsius     100 100 000 Old_age  Always  -           43
+196 Reallocated_Event_Count 100 100 000 Old_age  Always  -           0
+197 Current_Pending_Sector  100 100 000 Old_age  Always  -           0
+198 Offline_Uncorrectable   100 100 000 Old_age  Offline -           0
+199 UDMA_CRC_Error_Count    200 253 000 Old_age  Always  -           0
+220 Disk_Shift              100 100 000 Old_age  Always  -           0
+222 Loaded_Hours            096 096 000 Old_age  Always  -           1732
+223 Load_Retry_Count        100 100 000 Old_age  Always  -           0
+224 Load_Friction           100 100 000 Old_age  Always  -           0
+226 Load-in_Time            100 100 000 Old_age  Always  -           541
+240 Head_Flying_Hours       100 100 001 Pre-fail Offline -           0
