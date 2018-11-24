@@ -1,0 +1,23 @@
+
+
+open app
+
+destination will always be preset before the process is started.
+
+select a drive and click process.
+
+Then appp wil create a .ini file with the log in it.
+
+it will tell us contents and the size of the data
+
+upon giving instructions to proceed, it will start copy and keep a track of the process. 
+if it fails in between it will copy remaining data and then update the log.
+
+once data copy is completed it will either ask to make another copy or delete the content. 
+
+the if card content is not deleted, then .ini file will stay. if the data is moved, ini will also gets deleted.
+
+
+
+Ultimate log file will be a csv file which will keep track of every transaction.
+
