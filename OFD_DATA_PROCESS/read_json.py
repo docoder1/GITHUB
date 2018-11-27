@@ -1,9 +1,18 @@
 import json
 
-with open('test.json', 'r') as f:
+with open('DOC_20181126_1829.json', 'r') as f:
     data = json.load(f)
 
-for k,v in data.items():
-    print k
-    print v
+# print data
+
+for i in data:
+    print i
+    # for k,v in i.items():
+    #     print k
+    #     print v
+    # print type(i)
+
+# for k,v in data.items():
+#     print k
+#     print v
 
